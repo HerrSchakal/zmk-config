@@ -53,10 +53,10 @@
 
         num_sym {
             bindings = <
-&kp TAB  &kp LBKT   &kp N7  &kp N8      &kp N9  &kp RBKT     &none      &none      &none      &none     &none     &kp BACKSPACE
-&none    &kp MINUS  &kp N4  &kp N5      &kp N6  &kp EQUAL    &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none    &kp GRAVE  &kp N1  &kp N2      &kp N3  &kp BSLH     &none      &none      &none      &none     &none     &kp ESCAPE
-                            &kp PERIOD  &kp N0  &kp SPACE    &kp ENTER  &trans     &trans
+&kp TAB        &kp LBKT      &kp N7  &kp N8      &kp N9  &kp RBKT     &none      &none      &none      &none     &none     &kp BACKSPACE
+&kp BACKSLASH  &kp MINUS     &kp N4  &kp N5      &kp N6  &kp EQUAL    &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&kp GRAVE      &kp ASTERISK  &kp N1  &kp N2      &kp N3  &kp SLASH    &none      &none      &none      &none     &none     &kp ESCAPE
+                                     &kp PERIOD  &kp N0  &kp SPACE    &kp ENTER  &trans     &trans
             >;
         };
 
