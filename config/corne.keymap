@@ -44,7 +44,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2    &kp N3     &kp N4     &kp N5       &kp N6   &kp N7    &kp N8         &kp N9        &kp N0     &kp BSPC
+&kp ESCAPE  &kp NUMBER_1  &kp N2    &kp N3     &kp N4     &kp N5       &kp N6   &kp N7    &kp N8         &kp N9        &kp N0     &kp BSPC
 &none       &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none        &kp INS  &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none
 &none       &none         &none     &none      &none      &none        &kp DEL  &kp HOME  &kp PAGE_DOWN  &kp PG_UP     &kp END    &none
                                     &trans     &trans     &kp SPACE    &kp RET  &trans    &trans
@@ -53,10 +53,10 @@
 
         num_sym {
             bindings = <
-&kp TAB        &kp LBKT      &kp N7  &kp N8      &kp N9  &kp RBKT     &none      &none      &none      &none     &none     &kp BACKSPACE
-&kp BACKSLASH  &kp MINUS     &kp N4  &kp N5      &kp N6  &kp EQUAL    &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&kp GRAVE      &kp ASTERISK  &kp N1  &kp N2      &kp N3  &kp SLASH    &none      &none      &none      &none     &none     &kp ESCAPE
-                                     &kp PERIOD  &kp N0  &kp SPACE    &kp ENTER  &trans     &trans
+&kp TAB        &kp LBKT   &kp N7  &kp N8      &kp N9  &kp RBKT        &none      &none      &none      &none     &none     &kp BACKSPACE
+&kp GRAVE      &kp MINUS  &kp N4  &kp N5      &kp N6  &kp EQUAL       &none      &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&kp BACKSLASH  &kp SLASH  &kp N1  &kp N2      &kp N3  &kp ASTERISK    &none      &none      &none      &none     &none     &kp ESCAPE
+                                  &kp PERIOD  &kp N0  &kp SPACE       &kp ENTER  &trans     &trans
             >;
         };
 
